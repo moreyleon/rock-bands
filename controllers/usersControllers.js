@@ -65,7 +65,7 @@ const usersControllers = {
         
           users.push({
             nombre,
-            correo,
+            correo, 
             contrasena:hash
           });
 

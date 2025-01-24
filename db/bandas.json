@@ -1,0 +1,12 @@
+[
+    {
+        "nombre": "Rolling Stones",
+        "imagen": "rollingstones.webp",
+        "genero": "Rock"
+    },
+    {
+        "nombre": "Nirvana",
+        "imagen": "nirvana.jpeg",
+        "genero": "Rock"
+    }
+]

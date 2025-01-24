@@ -8,5 +8,10 @@
         "nombre": "Adrian",
         "correo": "adrian@gmail.com",
         "contrasena": "$2b$10$2E3BHHrtirqTrZjw9dCgZORuv2A6hOAgRoM.r6ehavY1xGseEvaiW"
+    },
+    {
+        "nombre": "victor",
+        "correo": "loro@gmail.com",
+        "contrasena": "$2b$10$rHwhpbjnwgFq89eOOXQYaOfMl.wCmoCf8.9DadU7aK6tGG5Xehr6y"
     }
 ]

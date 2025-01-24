@@ -5,6 +5,8 @@ const registerValidator = require('../validations/registerValidator');
 //const validationLogin = require('../middleware/loginVerify');
 const loginValidator = require('../validations/loginValidator');
 const loginVerify = require('../middleware/loginValidate');
+
+
 /* GET users listing. */
 router.get('/login',loginVerify, login);
 router.post('/login', loginValidator, processLogin);

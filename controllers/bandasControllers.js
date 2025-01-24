@@ -1,5 +1,8 @@
 const db = require('../db/index');
+
+
 const bandasController = {
+    
     listado: (req, res) => {
         res.render('bandas/listadoBandas', { bandas: db.lista });
     },
@@ -15,6 +18,8 @@ const bandasController = {
         const bandas = db.lista.filter(banda => banda.genero == req.params.genero);
         res.render('bandas/porGenero', { bandas });
     }
+
+    
 
 }
 
