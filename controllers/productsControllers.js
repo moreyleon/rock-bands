@@ -16,8 +16,7 @@ const product = {
     add: (req, res) => {
         
         res.render('products/productsAdd');
-    },
-   carga: (req, res) => {
+    
     const agregar = bandas();
         const {nombre, imagen, genero} = req.body;
         agregar.push({

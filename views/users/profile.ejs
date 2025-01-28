@@ -28,8 +28,8 @@
             <label for="password">Confirmar contraseña</label>
             <input type="password" name="contrasena2" id="password" value="" >
             
-            <!-- <label for="avatar">Subir foto de perfil</label>
-            <input type="file" name="avatar" id="avatar" accept="image/*" value="<%= locals.user && locals.user.avatar ? user.avatar : ""%>" > -->
+             <label for="avatar">Subir foto de perfil</label>
+            <input type="file" name="avatar" id="avatar" accept="image/*" value="<%= locals.user && locals.user.avatar ? user.avatar : ""%>" > 
             
             <% if(locals.errores && locals.errores.avatar) {%>
                 <p><%= errores.avatar.msg %></p>
